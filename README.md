@@ -2,5 +2,5 @@
 
 This is a front end landing design of uber cab app using ReactJs and mapbox for map and geolocation integration
 
-## Available Scripts
-
+## Screenshot of the application
+![](Uber.jpg)
