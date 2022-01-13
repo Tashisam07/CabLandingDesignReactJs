@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.sidebar_item {
+	margin-top: 1.5rem;
+	height: 50px;
+}
+.icon_container {
+	color: #b6b5b4;
+	width: 100%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+.sidebar_item:hover {
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(0px);
+	-webkit-backdrop-filter: blur(0px);
+	border-radius: 5px;
+	width: 70px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.logo_title {
+	display: none;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #b6b5b4;
+}
+.sidebar_item:hover > .logo_title {
+	display: block;
+}
+.icon_container:hover {
+	cursor: pointer;
+	animation-name: bounce;
+	-moz-animation-name: bounce;
+	color: #f9851b;
+}
+@keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+}

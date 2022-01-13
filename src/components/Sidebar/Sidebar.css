@@ -1,0 +1,14 @@
+.sidebar_container {
+	flex: 0.05;
+	margin: 2rem 0.5rem;
+	width: 5%;
+	height: 100vh;
+}
+.sidebar_items {
+	margin-top: 3rem;
+}
+.logo{
+	height: 20px;
+	max-width:100%;
+	margin-bottom: 2rem;
+}
